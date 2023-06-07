@@ -15,6 +15,7 @@ class Solution(object):
         for i in range(len(keys)):
             if keys[i] != vals[i]:
                 return False
+
         a = {key: 0 for key in keys }
         b = {key: 0 for key in vals }
         for k in keys:
