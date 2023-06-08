@@ -18,6 +18,7 @@ class Solution(object):
 
         a = {key: 0 for key in keys }
         b = {key: 0 for key in vals }
+
         for k in keys:
             a[k] = a[k] + 1
             if b.get(k) is not None:
