@@ -13,7 +13,6 @@ class Solution(object):
             cache[item] += 1
         tups = list(cache.items())
         sorted_list = sorted(tups, key=lambda x: x[1])[-k:]
-        print(sorted_list[-k:])
         return [t[0] for t in sorted_list]
 
 
